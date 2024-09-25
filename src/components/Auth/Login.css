@@ -13,7 +13,7 @@
 }
 
 .form-container{
-  width: 50%;
+  width: 50% !important;
   margin: 0 auto;
   padding: 40px;
   border: 1px solid #ddd;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 .inputEl{
-  width: 300px;
+  width: 300px !important;
   border-radius: 7px;
   font-size: 14px;
 }
