@@ -40,21 +40,23 @@ button:hover {
 }
 
 .inputEl{
-  width: 450px;
+  width: 400px;
   border-radius: 7px;
   font-size: 14px;
 }
 
 .input-Area{
-  width: 450px;
+  width: 350px;
   border-radius: 7px;
   font-size: 14px;
 }
 
 .select-input{
-  width: 478px;
+  width: 100px;
   border-radius: 7px;
   font-size: 14px;
+  text-align: center;
+  padding-right: 5px;
 }
 
 
