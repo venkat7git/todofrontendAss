@@ -1,0 +1,106 @@
+/* TaskList.css */
+
+div {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start!important;
+  align-items: center;
+}
+
+.list-item {
+  padding: 30px !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.delete-button {
+  background-color: #ac444e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+a {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+
+}
+
+a:hover {
+  
+
+  text-decoration: underline;
+}
+
+.loading-container{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none !important;
+}
+
+.task-heading{
+  font-size: 34px;
+  text-align: center;
+}
+
+.description{
+  font-size: 14px;
+}
+.title{
+  font-size: 25px;
+}
+.status{
+  font-size: 14px;
+}

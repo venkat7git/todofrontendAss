@@ -1,0 +1,89 @@
+/* TaskForm.css */
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 40px;
+  border: 1px solid #914949;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+
+
+button:hover {
+  background-color: #218838;
+}
+
+.inputEl{
+  width: 450px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.input-Area{
+  width: 450px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.select-input{
+  width: 478px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+
+.form-container{
+  margin-top: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-todo-button{
+  margin-top: 20px;
+  width: 120px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.heading{
+  font-size: 32px;
+}
