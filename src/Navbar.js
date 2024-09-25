@@ -9,6 +9,8 @@ const Navbar = () => {
     navigate('/login')
   }
   return (
+    <>
+    <h1 className="todo-heading">Todo App</h1>
     <nav>
       <ul>
         <li>
@@ -21,6 +23,9 @@ const Navbar = () => {
       </ul>
       <button onClick={onClickLogOut} className="logout-btn">Logout</button>
     </nav>
+      
+    </>
+    
   );
 };
 

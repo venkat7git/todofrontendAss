@@ -47,3 +47,8 @@ a.active {
 .logout-btn:hover{
   background-color: #980a0a;
 }
+.todo-heading{
+  text-align: center;
+  color: rgb(179, 29, 102);
+  font-family: "Roboto";
+}
